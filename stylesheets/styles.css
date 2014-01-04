@@ -1,4 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 
 body {
   padding:50px;
@@ -8,24 +12,44 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font: 14px/1.5 Lora, "Palatino Linotype", Book Antiqua, Palatino, serif;
   color:#222;
   margin:0 0 20px;
 }
 
-p, ul, ol, table, pre, dl {
+p, table, pre, dl {
   margin:0 0 20px;
 }
 
+b {
+  font-weight:700;
+}
+
+ul, ol {
+  margin:0 0 0px;
+}
+
 h1, h2, h3 {
-  line-height:1.1;
+  line-height:0.75;
 }
 
 h1 {
-  font-size:28px;
+  font:14px/0.25 Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:700;
+  font-size:32px;
+  color: #109eb4;
 }
 
 h2 {
   color:#393939;
+  font-style: italic;
+  font-size: 16px;
+}
+
+h3 {
+  font-style: italic;
+  margin:0 0 10px;
+  color: #e5e5e5;
 }
 
 h3, h4, h5, h6 {
@@ -33,7 +57,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#109eb4;
   font-weight:400;
   text-decoration:none;
 }
@@ -101,7 +125,7 @@ header {
   position:fixed;
 }
 
-header ul {
+/*header ul {
   list-style:none;
   height:40px;
   
@@ -137,6 +161,7 @@ header ul a {
   padding-top:6px;
   height:40px;
 }
+*/
 
 strong {
   color:#222;
@@ -150,7 +175,7 @@ header ul li + li {
 
 header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:125px;
 }
 
 header ul a strong {
@@ -205,6 +230,7 @@ footer {
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
+
   }
   
   header a small {
