@@ -34,9 +34,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font:14px/0.25 Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:28px/0.25 Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:700;
-  font-size:32px;
   color: #109eb4;
 }
 
@@ -117,6 +116,7 @@ th {
 
 img {
   max-width:100%;
+  margin: -20px 3px 25px;
 }
 
 header {
